@@ -24,6 +24,3 @@ app.listen(8081, function () {
 app.get('/test', function (req, res) {
     res.send(mockAPIResponse)
 })
-var textapi = new aylien({
-    application_key: process.env.API_KEY
- });
